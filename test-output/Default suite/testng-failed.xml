@@ -7,6 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="verifyLogingpagetitle"/>
+          <include name="verifyloginwithValiddata"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hubspot.appTest.LoginPagetest -->
