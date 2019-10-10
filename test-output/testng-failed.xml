@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]">
-  <test verbose="3" name="Running Test on Chrome(failed)" parallel="methods">
-    <parameter name="browser" value="chrome"/>
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.hubspot.appTest.LoginPagetest">
         <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
           <include name="setup"/>
+          <include name="verifyLogingpagetitle"/>
           <include name="verifyloginwithValiddata"/>
+          <include name="verifyloginwithNodata"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hubspot.appTest.LoginPagetest -->
     </classes>
-  </test> <!-- Running Test on Chrome(failed) -->
-  <test verbose="3" name="Running Test on Firefox(failed)" parallel="methods">
-    <parameter name="browser" value="ff"/>
-    <classes>
-      <class name="com.hubspot.appTest.LoginPagetest">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyloginwithValiddata"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.hubspot.appTest.LoginPagetest -->
-    </classes>
-  </test> <!-- Running Test on Firefox(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

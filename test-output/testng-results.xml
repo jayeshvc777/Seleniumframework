@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="76291" started-at="2019-09-27T11:13:49Z" finished-at="2019-09-27T11:15:05Z">
+  <suite name="Suite" duration-ms="101484" started-at="2019-10-10T13:22:25Z" finished-at="2019-10-10T13:24:06Z">
     <groups>
     </groups>
-    <test name="Running Test on Chrome" duration-ms="34911" started-at="2019-09-27T11:13:49Z" finished-at="2019-09-27T11:14:24Z">
+    <test name="Running Test on Chrome" duration-ms="46138" started-at="2019-10-10T13:22:25Z" finished-at="2019-10-10T13:23:11Z">
       <class name="com.hubspot.appTest.LoginPagetest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="setup" is-config="true" duration-ms="2022" started-at="2019-09-27T16:43:49Z" finished-at="2019-09-27T16:43:51Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="setup" is-config="true" duration-ms="2241" started-at="2019-10-10T18:52:25Z" finished-at="2019-10-10T18:52:27Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogingpagetitle()[pri:1, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="verifyLogingpagetitle" duration-ms="11400" started-at="2019-09-27T16:43:51Z" finished-at="2019-09-27T16:44:02Z">
+        <test-method status="PASS" signature="verifyLogingpagetitle()[pri:1, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="verifyLogingpagetitle" duration-ms="14353" started-at="2019-10-10T18:52:27Z" finished-at="2019-10-10T18:52:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogingpagetitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="tearDown" is-config="true" duration-ms="121" started-at="2019-09-27T16:44:02Z" finished-at="2019-09-27T16:44:03Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="getResult" is-config="true" duration-ms="186" started-at="2019-10-10T18:52:41Z" finished-at="2019-10-10T18:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogingpagetitle status=SUCCESS method=LoginPagetest.verifyLogingpagetitle()[pri:1, instance:com.hubspot.appTest.LoginPagetest@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="setup" is-config="true" duration-ms="1333" started-at="2019-09-27T16:44:03Z" finished-at="2019-09-27T16:44:04Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="setup" is-config="true" duration-ms="3910" started-at="2019-10-10T18:52:41Z" finished-at="2019-10-10T18:52:45Z">
           <params>
             <param index="0">
               <value>
@@ -37,15 +44,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginwithValiddata()[pri:2, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="verifyloginwithValiddata" duration-ms="12873" started-at="2019-09-27T16:44:04Z" finished-at="2019-09-27T16:44:17Z">
+        <test-method status="PASS" signature="verifyloginwithValiddata()[pri:2, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="verifyloginwithValiddata" duration-ms="17725" started-at="2019-10-10T18:52:45Z" finished-at="2019-10-10T18:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginwithValiddata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="tearDown" is-config="true" duration-ms="333" started-at="2019-09-27T16:44:17Z" finished-at="2019-09-27T16:44:17Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="getResult" is-config="true" duration-ms="97" started-at="2019-10-10T18:53:03Z" finished-at="2019-10-10T18:53:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginwithValiddata status=SUCCESS method=LoginPagetest.verifyloginwithValiddata()[pri:2, instance:com.hubspot.appTest.LoginPagetest@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="setup" is-config="true" duration-ms="1342" started-at="2019-09-27T16:44:17Z" finished-at="2019-09-27T16:44:18Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="setup" is-config="true" duration-ms="1779" started-at="2019-10-10T18:53:03Z" finished-at="2019-10-10T18:53:05Z">
           <params>
             <param index="0">
               <value>
@@ -56,19 +70,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginwithNodata()[pri:3, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="verifyloginwithNodata" duration-ms="5321" started-at="2019-09-27T16:44:18Z" finished-at="2019-09-27T16:44:24Z">
+        <test-method status="PASS" signature="verifyloginwithNodata()[pri:3, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="verifyloginwithNodata" duration-ms="5666" started-at="2019-10-10T18:53:05Z" finished-at="2019-10-10T18:53:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginwithNodata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@6eebc39e]" name="tearDown" is-config="true" duration-ms="128" started-at="2019-09-27T16:44:24Z" finished-at="2019-09-27T16:44:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hubspot.appTest.LoginPagetest@402a079c]" name="getResult" is-config="true" duration-ms="132" started-at="2019-10-10T18:53:11Z" finished-at="2019-10-10T18:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginwithNodata status=SUCCESS method=LoginPagetest.verifyloginwithNodata()[pri:3, instance:com.hubspot.appTest.LoginPagetest@402a079c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- getResult -->
       </class> <!-- com.hubspot.appTest.LoginPagetest -->
     </test> <!-- Running Test on Chrome -->
-    <test name="Running Test on Firefox" duration-ms="41365" started-at="2019-09-27T11:14:24Z" finished-at="2019-09-27T11:15:05Z">
+    <test name="Running Test on Firefox" duration-ms="55324" started-at="2019-10-10T13:23:11Z" finished-at="2019-10-10T13:24:06Z">
       <class name="com.hubspot.appTest.LoginPagetest">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="setup" is-config="true" duration-ms="5685" started-at="2019-09-27T16:44:24Z" finished-at="2019-09-27T16:44:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="setUp" is-config="true" duration-ms="207" started-at="2019-10-10T18:52:24Z" finished-at="2019-10-10T18:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="setup" is-config="true" duration-ms="4790" started-at="2019-10-10T18:53:11Z" finished-at="2019-10-10T18:53:16Z">
           <params>
             <param index="0">
               <value>
@@ -79,15 +104,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogingpagetitle()[pri:1, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="verifyLogingpagetitle" duration-ms="4063" started-at="2019-09-27T16:44:30Z" finished-at="2019-09-27T16:44:34Z">
+        <test-method status="PASS" signature="verifyLogingpagetitle()[pri:1, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="verifyLogingpagetitle" duration-ms="4073" started-at="2019-10-10T18:53:16Z" finished-at="2019-10-10T18:53:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogingpagetitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="tearDown" is-config="true" duration-ms="1230" started-at="2019-09-27T16:44:34Z" finished-at="2019-09-27T16:44:35Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="getResult" is-config="true" duration-ms="1415" started-at="2019-10-10T18:53:20Z" finished-at="2019-10-10T18:53:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogingpagetitle status=SUCCESS method=LoginPagetest.verifyLogingpagetitle()[pri:1, instance:com.hubspot.appTest.LoginPagetest@49993335] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="setup" is-config="true" duration-ms="5025" started-at="2019-09-27T16:44:35Z" finished-at="2019-09-27T16:44:40Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="setup" is-config="true" duration-ms="4285" started-at="2019-10-10T18:53:21Z" finished-at="2019-10-10T18:53:25Z">
           <params>
             <param index="0">
               <value>
@@ -98,15 +130,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginwithValiddata()[pri:2, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="verifyloginwithValiddata" duration-ms="12006" started-at="2019-09-27T16:44:40Z" finished-at="2019-09-27T16:44:52Z">
+        <test-method status="PASS" signature="verifyloginwithValiddata()[pri:2, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="verifyloginwithValiddata" duration-ms="11986" started-at="2019-10-10T18:53:25Z" finished-at="2019-10-10T18:53:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginwithValiddata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="tearDown" is-config="true" duration-ms="1145" started-at="2019-09-27T16:44:52Z" finished-at="2019-09-27T16:44:53Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="getResult" is-config="true" duration-ms="8195" started-at="2019-10-10T18:53:37Z" finished-at="2019-10-10T18:53:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginwithValiddata status=SUCCESS method=LoginPagetest.verifyloginwithValiddata()[pri:2, instance:com.hubspot.appTest.LoginPagetest@49993335] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="setup" is-config="true" duration-ms="5108" started-at="2019-09-27T16:44:53Z" finished-at="2019-09-27T16:44:58Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="setup" is-config="true" duration-ms="7006" started-at="2019-10-10T18:53:46Z" finished-at="2019-10-10T18:53:53Z">
           <params>
             <param index="0">
               <value>
@@ -117,11 +156,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyloginwithNodata()[pri:3, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="verifyloginwithNodata" duration-ms="5475" started-at="2019-09-27T16:44:58Z" finished-at="2019-09-27T16:45:04Z">
+        <test-method status="PASS" signature="verifyloginwithNodata()[pri:3, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="verifyloginwithNodata" duration-ms="5511" started-at="2019-10-10T18:53:53Z" finished-at="2019-10-10T18:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginwithNodata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@cb644e]" name="tearDown" is-config="true" duration-ms="1619" started-at="2019-09-27T16:45:04Z" finished-at="2019-09-27T16:45:05Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="getResult" is-config="true" duration-ms="8054" started-at="2019-10-10T18:53:58Z" finished-at="2019-10-10T18:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginwithNodata status=SUCCESS method=LoginPagetest.verifyloginwithNodata()[pri:3, instance:com.hubspot.appTest.LoginPagetest@49993335] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.appTest.LoginPagetest@49993335]" name="tearDown" is-config="true" duration-ms="267" started-at="2019-10-10T18:54:06Z" finished-at="2019-10-10T18:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

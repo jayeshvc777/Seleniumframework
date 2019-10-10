@@ -5,9 +5,12 @@
     <classes>
       <class name="com.hubspot.appTest.LoginPagetest">
         <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
           <include name="setup"/>
           <include name="verifyLogingpagetitle"/>
           <include name="verifyloginwithValiddata"/>
+          <include name="verifyloginwithNodata"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hubspot.appTest.LoginPagetest -->

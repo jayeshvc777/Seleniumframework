@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" name="Suite" parallel= "tests" verbose = "3"><!-- Verbose -> how many type of output should be displayed in console -->
 
+<!-- <listeners>
+       <listener class-name="com.hubspot.listeners.TestListener"/>
+  </listeners> -->
+  
 <!-- Start First Test  -->
   <test  name="Running Test on Chrome" parallel = "methods" thread-count="5">
   <parameter name="browser" value="chrome"></parameter>

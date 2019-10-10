@@ -6,8 +6,10 @@
     <classes>
       <class name="com.hubspot.appTest.LoginPagetest">
         <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
           <include name="setup"/>
-          <include name="verifyloginwithValiddata"/>
+          <include name="verifyLogingpagetitle"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hubspot.appTest.LoginPagetest -->
@@ -18,8 +20,10 @@
     <classes>
       <class name="com.hubspot.appTest.LoginPagetest">
         <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
           <include name="setup"/>
-          <include name="verifyloginwithValiddata"/>
+          <include name="verifyLogingpagetitle"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.hubspot.appTest.LoginPagetest -->
